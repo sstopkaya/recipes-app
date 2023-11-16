@@ -3,22 +3,23 @@ import colors from "../../constants/colors";
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: colors.green,
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'center',
         borderRadius: 10,
-        padding: 15,
+        borderWidth: 1,
+        borderColor: colors.lightGrey,
+        padding: 10,
+        marginVertical: 16,
     },
-    text: {
-        color: colors.white,
-        fontSize: 16,
-        fontWeight: '500'
+    input: {
+        color: colors.black,
+        fontSize: 14,
+        flex: 1,
     },
     icon: {
-        width: 24,
-        height: 24,
-        marginLeft: 16,
+        width: 16,
+        height: 16,
+        marginRight: 16,
     }
 })
 
